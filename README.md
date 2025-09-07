@@ -110,3 +110,34 @@ Schema này được xây dựng theo hướng **chuẩn hóa, linh hoạt và d
 ---
 
 ## © Hệ thống quản lý đồ án môn học - Khoa CNTT - ĐHSP Kỹ thuật Hưng Yên
+Mối quan hệ 1-Nhiều:
+
+Một khoa có nhiều bộ môn
+
+Một bộ môn có nhiều chuyên ngành
+
+Một chuyên ngành có nhiều lớp
+
+Một lớp có nhiều sinh viên
+
+Một sinh viên thực hiện nhiều báo cáo tuần
+
+Mối quan hệ Nhiều-Nhiều:
+
+Người dùng – Vai trò
+
+Đợt làm đồ án – Lớp
+
+Đợt làm đồ án – Giảng viên (phân công hướng dẫn)
+
+Đợt – Sinh viên (tham gia)
+
+Đề tài – Đăng ký đề tài
+
+Hội đồng – Thành viên (giảng viên)
+
+Hội đồng – Đồ án (bảo vệ)
+
+Mối quan hệ 1-1 hoặc duy nhất:
+
+Mỗi sinh viên chỉ đăng ký 1 đề tài trên 1 đợt (UNIQUE)
